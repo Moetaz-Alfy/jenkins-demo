@@ -1,16 +1,13 @@
-
 pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('Run Script') {
             steps {
-                echo 'Hello'
-            }
-        }
-        stage('World') {
-            steps {
-                echo 'World'
+                // Make sure script is executable
+                sh 'chmod +x script.sh'
+                // Run the script
+                sh './script.sh'
             }
         }
     }
