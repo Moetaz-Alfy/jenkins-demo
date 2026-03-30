@@ -1,0 +1,35 @@
+01) What is CI/CD?
+Answer: 
+CI/CD stands for Continuous Integration and Continuous Deployment/Delivery. 
+- **CI (Continuous Integration):** Developers frequently merge code changes into a shared repository, automatically triggering builds and tests.  
+- **CD (Continuous Deployment/Delivery):** Automated process to deliver code changes to production or staging environments reliably.
+
+02) Give me three tools of CI/CD?
+Answer: 
+1) Jenkins  
+2) GitLab CI/CD  
+3) CircleCI  
+
+03) What is Jenkins pipeline?
+Answer: 
+A Jenkins pipeline is a suite of plugins that supports implementing and integrating continuous delivery pipelines. 
+It defines stages and steps for building, testing, and deploying code.
+
+04) What language is Jenkins based on?
+Answer: 
+Java
+
+05) What scripting language is Jenkins pipeline syntax based on?
+Answer: 
+Groovy
+
+06) What are the ways you can write pipeline in Jenkins?
+Answer:
+1) Declarative Pipeline (simpler, structured syntax)  
+2) Scripted Pipeline (full Groovy scripting flexibility)
+
+07) Create free style project with hello world
+Answer:
+- Go to Jenkins Dashboard → New Item → Freestyle Project  
+- Enter a name → OK  
+- Build → Add Build Step → Execute Shell → type:
